@@ -1,0 +1,4 @@
+*.exe
+*.pyc
+.vscode
+*.txt
