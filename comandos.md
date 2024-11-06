@@ -40,5 +40,4 @@
     git branch -d nome-da-branch
 
 ## para atualizar localmente as alterações do servidor github
-
     git pull
