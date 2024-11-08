@@ -1,0 +1,11 @@
+CREATE DATABASE LojaClientes;
+
+USE LojaClientes;
+
+CREATE TABLE Cliente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(11) UNIQUE NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    telefone VARCHAR(15) NOT NULL
+);
